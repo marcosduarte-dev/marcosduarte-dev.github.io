@@ -1,566 +1,373 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<!-- Required meta tags -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="icon" href="img/favicon.png" type="image/png">
-	<title>Marcos Portfolio</title>
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="vendors/linericon/style.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/magnific-popup.css">
-	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
-	<script src="https://kit.fontawesome.com/8c3b3b7e25.js" crossorigin="anonymous"></script>
-	<!-- main css -->
-	<link rel="stylesheet" href="css/style.css">
-</head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Your description">
+    <meta name="author" content="Your name">
 
-<body>
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
+	<meta property="og:site_name" content="" /> <!-- website name -->
+	<meta property="og:site" content="" /> <!-- website link -->
+	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+	<meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
 
-	<!--================ Start Header Area =================-->
-	<header class="header_area">
-		<div class="main_menu">
-			<nav class="navbar navbar-expand-lg navbar-light">
-				<div class="container">
-					<!-- Brand and toggle get grouped for better mobile display -->
-					<a class="navbar-brand logo_h" href="index.html"><img src="img/logosemfundo.png" height="110"></a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-						<ul class="nav navbar-nav menu_nav justify-content-end">
-							<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-							<!-- <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-							<li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-							<li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li> -->
-							<!-- <li class="nav-item submenu dropdown">
-								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-								 aria-expanded="false">Pages</a>
-								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="elements.html">Elements</a></li>
-									<li class="nav-item"><a class="nav-link" href="portfolio-details.html">Portfolio Details</a></li>
-								</ul>
-							</li>
-							<li class="nav-item submenu dropdown">
-								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-								 aria-expanded="false">Blog</a>
-								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-									<li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
-								</ul>
-							</li>
-							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li> -->
-						</ul>
-					</div>
-				</div>
-			</nav>
-		</div>
-	</header>
-	<!--================ End Header Area =================-->
-
-	<!--================ Start Home Banner Area =================-->
-	<section class="home_banner_area">
-		<div class="banner_inner">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-7">
-						<div class="banner_content">
-							<h3 class="text-uppercase">Olá</h3>
-							<h1 class="text-uppercase">Eu sou</h1>
-							<h1 class="text-uppercase">Marcos Duarte</h1>
-							<h5 class="text-uppercase">Desenvolvedor FullStack</h5>
-							<div class="d-flex justify-content-end">
-								<a target="_blank" href="https://www.linkedin.com/in/duarte-marcos/"><i class="fa-brands fa-linkedin fa-2xl logos"></i></a>
-								<a target="_blank" href="https://github.com/marcosduarte-dev"><i class="fa-brands fa-github fa-2xl logos"></i></i></a>
-								<a target="_blank" href="doc/Curriculo - Marcos Pedroso Duarte FRONT.pdf"><i class="fa-solid fa-file fa-2xl logos"></i></a>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-5">
-						<div class="home_right_img">
-							<img class="" src="img/banner/home-right.png" alt="">
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================ End Home Banner Area =================-->
-
-	<!--================ Start About Us Area =================-->
-	<section class="about_area section_gap">
-		<div class="container">
-			<div class="row justify-content-start align-items-center">
-				<div class="col-lg-5">
-					<div class="about_img">
-						<img class="" src="img/about-us.png" alt="">
-					</div>
-				</div>
-
-				<div class="offset-lg-1 col-lg-5">
-					<div class="main_title text-left">
-						<h2>Deixe me <br>
-							Falar um pouco <br>
-							sobre mim</h2>
-						<p>
-							Sou um jovem apaixonado por tecnologia em busca sempre de novos conhecimentos, por isso atualmente estou estudando Python e .NET
-						</p>
-						<p>
-							Sou estudante de engenharia da computação na FACENS onde estou cursando o 6º Semestre, além disso estou fazendo um estágio na area de desenvolvimento WEB utilizando Angular, Spring Boot, Postgres.
-						</p>
-						<a class="primary_btn" href="doc/Curriculo - Marcos Pedroso Duarte FRONT.pdf"><span>Baixar CV</span></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================ End About Us Area =================-->
-
-	<!--================ Srart Brand Area =================-->
-	<section class="brand_area section_gap_bottom">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-6">
-					<div class="row">
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<img src="img/brands/logoItix.svg" alt="">
-								</div>
-							</div>
-						</div>
-						<!-- <div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<img src="img/brands/logo2.png" alt="">
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<img src="img/brands/logo3.png" alt="">
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<img src="img/brands/logo4.png" alt="">
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<img src="img/brands/logo5.png" alt="">
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<img src="img/brands/logo6.png" alt="">
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<img src="img/brands/logo7.png" alt="">
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<img src="img/brands/logo8.png" alt="">
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<img src="img/brands/logo9.png" alt="">
-								</div>
-							</div>
-						</div> -->
-					</div>
-				</div>
-				<div class="offset-lg-2 col-lg-4 col-md-6">
-					<div class="client-info">
-						<div class="d-flex mb-50">
-							<span class="lage">1</span>
-							<span class="smll">De experiência com clientes reais</span>
-						</div>
-						<div class="call-now d-flex">
-							<div>
-								<span class="fa fa-phone"></span>
-							</div>
-							<div class="ml-15">
-								<p>Telefone/Whatsapp</p>
-								<h3>(15)9 9671-7331</h3>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================ End Brand Area =================-->
-
-	<!--================ Start Features Area =================-->
-	<section class="features_area">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-8 text-center">
-					<div class="main_title">
-						<h2>Habilidades</h2>
-					</div>
-				</div>
-			</div>
-			<div class="row feature_inner">
-				<div class="col-lg-4 col-md-6">
-					<div class="feature_item">
-						<img src="img/services/s1.png" alt="">
-						<h4>Front-End</h4>
-						<p>Desenvolver sistemas WEB utilizando Angular e Bootstrap além de experiências com Django</p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="feature_item">
-						<img src="img/services/s2.png" alt="">
-						<h4>Back-End</h4>
-						<p>Desenvolver API completa usando Spring Boot e Postgres além de experiências com MongoDB, PL/SQL</p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="feature_item">
-						<img src="img/services/s3.png" alt="">
-						<h4>Análise de Dados</h4>
-						<p>Conhecimentos em Excel, em bancos de dados Postgres e PL/SQL, Python e atualmente estudando Power BI</p>
-					</div>
-				</div>
-				<!-- <div class="col-lg-3 col-md-6">
-					<div class="feature_item">
-						<img src="img/services/s4.png" alt="">
-						<h4>seo optimize</h4>
-						<p>Creeping for female light years that lesser can't evening heaven isn't bearing tree</p>
-					</div>
-				</div> -->
-			</div>
-		</div>
-	</section>
-	<!--================ End Features Area =================-->
-
-	<!--================Start Portfolio Area =================-->
-	<section class="portfolio_area" id="portfolio">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="main_title text-left">
-						<h2>Projetos</h2>
-					</div>
-				</div>
-			</div>
-			<div class="filters portfolio-filter">
-				<ul>
-					<li class="active" data-filter="*">Todos</li>
-					<li data-filter=".front">Front-End</li>
-					<!-- <li data-filter=".latest"> Back-End</li> -->
-				</ul>
-			</div>
+    <!-- Webpage Title -->
+    <title>QuickTable</title>
+    
+    <!-- Styles -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+	<link href="css/magnific-popup.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
 	
-			<div class="filters-content">
-				<div class="row portfolio-grid justify-content-center">
-					<div class="col-lg-4 col-md-6 all front">
-						<div class="portfolio_box">
-							<div class="single_portfolio">
-								<a href="https://marcosduarte-dev.github.io/DicionarioAngular/"><img class="img-fluid w-100" src="img/portfolio/p1.jpg" alt=""></a>
-							</div>
-							<div class="short_info">
-								<h4><a href="https://marcosduarte-dev.github.io/DicionarioAngular/">Dicionario em Angular</a></h4>
-								<p>Dicionario fazendo requisição de API em Angular</p>
-							</div>
-						</div>
-					</div>
-					<!-- <div class="col-lg-4 col-md-6 all popular">
-						<div class="portfolio_box">
-							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="img/portfolio/p2.jpg" alt="">
-								<div class="overlay"></div>
-								<a href="img/portfolio/p2.jpg" class="img-gal">
-									<div class="icon">
-										<span class="lnr lnr-cross"></span>
-									</div>
-								</a>
-							</div>
-							<div class="short_info">
-								<h4><a href="portfolio-details.html">Paint wall</a></h4>
-								<p>Animated, portfolio</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 all latest">
-						<div class="portfolio_box">
-							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="img/portfolio/p3.jpg" alt="">
-								<div class="overlay"></div>
-								<a href="img/portfolio/p3.jpg" class="img-gal">
-									<div class="icon">
-										<span class="lnr lnr-cross"></span>
-									</div>
-								</a>
-							</div>
-							<div class="short_info">
-								<h4><a href="portfolio-details.html">female light</a></h4>
-								<p>Animated, portfolio</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 all popular">
-						<div class="portfolio_box">
-							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="img/portfolio/p4.jpg" alt="">
-								<div class="overlay"></div>
-								<a href="img/portfolio/p4.jpg" class="img-gal">
-									<div class="icon">
-										<span class="lnr lnr-cross"></span>
-									</div>
-								</a>
-							</div>
-							<div class="short_info">
-								<h4><a href="portfolio-details.html">fourth air</a></h4>
-								<p>Animated, portfolio</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 all following">
-						<div class="portfolio_box">
-							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="img/portfolio/p6.jpg" alt="">
-								<div class="overlay"></div>
-								<a href="img/portfolio/p5.jpg" class="img-gal">
-									<div class="icon">
-										<span class="lnr lnr-cross"></span>
-									</div>
-								</a>
-							</div>
-							<div class="short_info">
-								<h4><a href="portfolio-details.html">together sign</a></h4>
-								<p>Animated, portfolio</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 all upcoming">
-						<div class="portfolio_box">
-							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="img/portfolio/p5.jpg" alt="">
-								<div class="overlay"></div>
-								<a href="img/portfolio/p6.jpg" class="img-gal">
-									<div class="icon">
-										<span class="lnr lnr-cross"></span>
-									</div>
-								</a>
-							</div>
-							<div class="short_info">
-								<h4><a href="portfolio-details.html">multiply fowl</a></h4>
-								<p>Animated, portfolio</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 all upcoming following">
-						<div class="portfolio_box">
-							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="img/portfolio/p7.jpg" alt="">
-								<div class="overlay"></div>
-								<a href="img/portfolio/p7.jpg" class="img-gal">
-									<div class="icon">
-										<span class="lnr lnr-cross"></span>
-									</div>
-								</a>
-							</div>
-							<div class="short_info">
-								<h4><a href="portfolio-details.html">green heaven</a></h4>
-								<p>Animated, portfolio</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 all following">
-						<div class="portfolio_box">
-							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="img/portfolio/p8.jpg" alt="">
-								<div class="overlay"></div>
-								<a href="img/portfolio/p8.jpg" class="img-gal">
-									<div class="icon">
-										<span class="lnr lnr-cross"></span>
-									</div>
-								</a>
-							</div>
-							<div class="short_info">
-								<h4>fly male</h4>
-								<p>Animated, portfolio</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 all upcoming">
-						<div class="portfolio_box">
-							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="img/portfolio/p9.jpg" alt="">
-								<div class="overlay"></div>
-								<a href="img/portfolio/p9.jpg" class="img-gal">
-									<div class="icon">
-										<span class="lnr lnr-cross"></span>
-									</div>
-								</a>
-							</div>
-							<div class="short_info">
-								<h4><a href="portfolio-details.html">season face</a></h4>
-								<p>Animated, portfolio</p>
-							</div>
-						</div>
-					</div> -->
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================End Portfolio Area =================-->
+	<!-- Favicon  -->
+    <link rel="icon" href="images/favicon.png">
+</head>
+<body data-spy="scroll" data-target=".fixed-top">
+    
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+        <div class="container">
+            
+            <!-- Text Logo - Use this if you don't have a graphic logo -->
+            <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Kora</a> -->
 
-	<!-- ================ Start Testimonial Area =================
-	<div class="testimonial_area section_gap_bottom">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-8 text-center">
-					<div class="main_title">
-						<h2>client say about me</h2>
-						<p>Is give may shall likeness made yielding spirit a itself togeth created after sea is in beast <br>
-							 beginning signs open god you're gathering ithe</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="testi_slider owl-carousel">
-        			<div class="testi_item">
-        				<div class="row">
-        					<div class="col-lg-4">
-        						<img src="img/testimonials/t1.jpg" alt="">
-        					</div>
-        					<div class="col-lg-8">
-        						<div class="testi_text">
-        							<h4>Elite Martin</h4>
-									<p>Him, made can't called over won't there on divide there male fish beast own his day third seed sixth seas unto. Saw from </p>
-        						</div>
-        					</div>
-        				</div>
-        			</div>
-        			<div class="testi_item">
-        				<div class="row">
-        					<div class="col-lg-4">
-        						<img src="img/testimonials/t2.jpg" alt="">
-        					</div>
-        					<div class="col-lg-8">
-        						<div class="testi_text">
-        							<h4>Davil Saden</h4>
-									<p>Him, made can't called over won't there on divide there male fish beast own his day third seed sixth seas unto. Saw from </p>
-        						</div>
-        					</div>
-        				</div>
-        			</div>
-        			<div class="testi_item">
-        				<div class="row">
-        					<div class="col-lg-4">
-        						<img src="img/testimonials/t1.jpg" alt="">
-        					</div>
-        					<div class="col-lg-8">
-        						<div class="testi_text">
-        							<h4>Elite Martin</h4>
-									<p>Him, made can't called over won't there on divide there male fish beast own his day third seed sixth seas unto. Saw from </p>
-        						</div>
-        					</div>
-        				</div>
-        			</div>
-        			<div class="testi_item">
-        				<div class="row">
-        					<div class="col-lg-4">
-        						<img src="img/testimonials/t2.jpg" alt="">
-        					</div>
-        					<div class="col-lg-8">
-        						<div class="testi_text">
-        							<h4>Davil Saden</h4>
-									<p>Him, made can't called over won't there on divide there male fish beast own his day third seed sixth seas unto. Saw from </p>
-        						</div>
-        					</div>
-        				</div>
-        			</div>
-        			<div class="testi_item">
-        				<div class="row">
-        					<div class="col-lg-4">
-        						<img src="img/testimonials/t1.jpg" alt="">
-        					</div>
-        					<div class="col-lg-8">
-        						<div class="testi_text">
-        							<h4>Elite Martin</h4>
-									<p>Him, made can't called over won't there on divide there male fish beast own his day third seed sixth seas unto. Saw from </p>
-        						</div>
-        					</div>
-        				</div>
-        			</div>
-        			<div class="testi_item">
-        				<div class="row">
-        					<div class="col-lg-4">
-        						<img src="img/testimonials/t2.jpg" alt="">
-        					</div>
-        					<div class="col-lg-8">
-        						<div class="testi_text">
-        							<h4>Davil Saden</h4>
-									<p>Him, made can't called over won't there on divide there male fish beast own his day third seed sixth seas unto. Saw from </p>
-        						</div>
-        					</div>
-        				</div>
-        			</div>
-        		</div>
-			</div>
-		</div>
-	</div> -->
-	<!--================ End Testimonial Area =================-->
+            <!-- Image Logo -->
+            <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative"></a> 
 
-	<!--================Footer Area =================-->
-	<footer class="footer_area">
-			<div class="row footer_bottom justify-content-center">
-				<p class="col-lg-8 col-sm-12 footer-text">
-					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved<i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-			</div>
-		</div>
-	</footer>
-	<!--================End Footer Area =================-->
+            <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-	<!-- Optional JavaScript -->
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/popper.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/stellar.js"></script>
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
-	<script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
-	<script src="vendors/isotope/isotope-min.js"></script>
-	<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-	<script src="js/jquery.ajaxchimp.min.js"></script>
-	<script src="js/mail-script.js"></script>
-	<!--gmaps Js-->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
-	<script src="js/gmaps.min.js"></script>
-	<script src="js/theme.js"></script>
+            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#header">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#intro">Intro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#features">Recursos</a>
+                    </li>
+                </ul>
+                <span class="nav-item">
+                    <a class="btn-solid-sm page-scroll" target="_blank" href="https://quicktableadministration.netlify.app/">Veja uma demo</a>
+                </span>
+            </div> <!-- end of navbar-collapse -->
+        </div> <!-- end of container -->
+    </nav> <!-- end of navbar -->
+    <!-- end of navigation -->
+
+
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="text-container">
+                        <h1 class="h1-large">Eleve seu restaurante para o próximo nível!</h1>
+                        <p class="p-large">Um sistema completo para seus clientes fazerem pedidos direto da mesa e dividirem as contas de forma rápida e intuitiva.</p>
+                        <a class="btn-solid-lg" target="_blank" href="https://quicktableadministration.netlify.app/">Veja uma demo</a>
+                        <a class="btn-outline-lg page-scroll" href="#intro">Descobrir</a>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-7">
+                    <div class="image-container">
+                        <img class="img-fluid" src="images/header.png" alt="alternative">
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </header> <!-- end of header -->
+    <!-- end of header -->
+
+
+    <!-- Customers -->
+    <div class="slider-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h4>Resturantes que utilizam <span>QuickTable</span> para elevar seu nível</h4>
+                    <hr class="section-divider">
+
+                    <!-- Image Slider -->
+                    <div class="slider-container">
+                        <div class="swiper-container image-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img class="img-fluid" src="images/customer-logo-1.png" alt="alternative">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img class="img-fluid" src="images/customer-logo-2.png" alt="alternative">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img class="img-fluid" src="images/customer-logo-3.png" alt="alternative">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img class="img-fluid" src="images/customer-logo-4.png" alt="alternative">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img class="img-fluid" src="images/customer-logo-5.png" alt="alternative">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img class="img-fluid" src="images/customer-logo-6.png" alt="alternative">
+                                </div>
+                            </div> <!-- end of swiper-wrapper -->
+                        </div> <!-- end of swiper container -->
+                    </div> <!-- end of slider-container -->
+                    <!-- end of image slider -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of slider-1 -->
+    <!-- end of customers -->
+
+
+    <!-- Introduction -->
+    <div id="intro" class="basic-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <img class="img-fluid" src="images/introduction.jpg" alt="alternative">
+                </div> <!-- end of col -->
+                <div class="col-lg-5">
+                    <div class="text-container">
+                        <h2>QuickTable está aqui para judar a elevar o nível do seu restaurante</h2>
+                        <p>Nós acreditamos que a velocidade e a facilidade que você proporciona ao seu cliente desde a realização do pedido até a separação da conta com os integrantes da mesa, trará uma experiência unica e inovadora para seu negócio!</p>
+                        <a class="btn-solid-reg" target="_blank" href="https://quicktableadministration.netlify.app/">Veja uma demo</a>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-1 -->
+    <!-- end of introduction -->
+
+
+    <!-- Features -->
+    <div id="features" class="cards-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="h2-heading">Confira todos nossos recursos!</h2>
+                    <p class="p-heading">Os recursos desenvolvidos para o QuickTable foram pensados para ajudar os restaurantes terem uma maior facilidade desde a realização dos pedidos até o fechamento da conta</p>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    
+                    <!-- Card -->
+                    <div class="card">
+                        <div class="card-icon-wrapper">
+                            <div class="card-icon">
+                                <span class="fas fa-headphones-alt green"></span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Pedidos realizados via aplicativo</h4>
+                            <p>Consiga acelerar o tempo de pedido feito pelos seus clientes, possibilitando que tudo seja realizado via aplicativo</p>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+                    <!-- Card -->
+                    <div class="card">
+                        <div class="card-icon-wrapper">
+                            <div class="card-icon">
+                                <span class="far fa-clipboard blue"></span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Divisão de conta automaticamente pelo que consumiu</h4>
+                            <p>Consiga acelerar a cobrança da conta, dividindo exatamente por aquilo que cada integrante consumiu</p>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+                    <!-- Card -->
+                    <div class="card">
+                        <div class="card-icon-wrapper">
+                            <div class="card-icon">
+                                <span class="far fa-comments purple"></span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Divisão de conta automaticamente pelo numero de integrantes</h4>
+                            <p>Tenha a alternativa de também dividir a conta de forma igual, automaticamente pelo numero de integrantes</p>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of cards-1 -->
+    <!-- end of features -->
+
+    <!-- Testimonials -->
+    <div class="slider-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="h2-heading">Algumas palavras dos nossos clientes!</h2>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <!-- Card Slider -->
+                    <div class="slider-container">
+                        <div class="swiper-container card-slider">
+                            <div class="swiper-wrapper">
+                                
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <p class="testimonial-text">O QuickTable facilitou muito a nossa vida na hora de dividir a conta entre amigos no restaurante. Recomendo!</p>
+                                            <div class="details">
+                                                <img class="testimonial-image" src="images/testimonial-1.jpg" alt="alternative">
+                                                <div class="text">
+                                                    <div class="testimonial-author">Maria A.</div>
+                                                    <div class="occupation">Estudante</div>
+                                                </div> <!-- end of text -->
+                                            </div> <!-- end of testimonial-details -->
+                                        </div>
+                                    </div> 
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <p class="testimonial-text">Nunca mais tive problemas com a divisão da conta desde que comecei a usar o QuickTable. Ótimo aplicativo!</p>
+                                            <div class="details">
+                                                <img class="testimonial-image" src="images/testimonial-2.jpg" alt="alternative">
+                                                <div class="text">
+                                                    <div class="testimonial-author">João C.</div>
+                                                    <div class="occupation">Empresário</div>
+                                                </div> <!-- end of text -->
+                                            </div> <!-- end of testimonial-details -->
+                                        </div>
+                                    </div> 
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <p class="testimonial-text">O QuickTable é essencial para restaurantes que valorizam agilidade e praticidade no atendimento aos clientes.</p>
+                                            <div class="details">
+                                                <img class="testimonial-image" src="images/testimonial-3.jpg" alt="alternative">
+                                                <div class="text">
+                                                    <div class="testimonial-author">Ana S.</div>
+                                                    <div class="occupation">Gerente de vendas</div>
+                                                </div> <!-- end of text -->
+                                            </div> <!-- end of testimonial-details -->
+                                        </div>
+                                    </div> 
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <p class="testimonial-text">Com o QuickTable, não precisamos mais nos preocupar em ficar calculando a conta. Super útil e eficiente!</p>
+                                            <div class="details">
+                                                <img class="testimonial-image" src="images/testimonial-4.jpg" alt="alternative">
+                                                <div class="text">
+                                                    <div class="testimonial-author">Carlos M.</div>
+                                                    <div class="occupation">Advogado</div>
+                                                </div> <!-- end of text -->
+                                            </div> <!-- end of testimonial-details -->
+                                        </div>
+                                    </div> 
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <p class="testimonial-text">O aplicativo QuickTable é uma revolução para quem gosta de sair para comer com amigos e dividir a conta de forma justa.</p>
+                                            <div class="details">
+                                                <img class="testimonial-image" src="images/testimonial-5.jpg" alt="alternative">
+                                                <div class="text">
+                                                    <div class="testimonial-author">Fernando R.</div>
+                                                    <div class="occupation">Desenvolvedoras</div>
+                                                </div> <!-- end of text -->
+                                            </div> <!-- end of testimonial-details -->
+                                        </div>
+                                    </div> 
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <p class="testimonial-text">Simplificou muito a minha vida como dono de restaurante. Agora consigo gerenciar os pedidos e pagamentos de forma muito mais eficiente.</p>
+                                            <div class="details">
+                                                <img class="testimonial-image" src="images/testimonial-6.jpg" alt="alternative">
+                                                <div class="text">
+                                                    <div class="testimonial-author">Neide P.</div>
+                                                    <div class="occupation">Proprietaria de Restaurante</div>
+                                                </div> <!-- end of text -->
+                                            </div> <!-- end of testimonial-details -->
+                                        </div>
+                                    </div> 
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+        
+                            </div> <!-- end of swiper-wrapper -->
+        
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <!-- end of add arrows -->
+        
+                        </div> <!-- end of swiper-container -->
+                    </div> <!-- end of slider-container -->
+                    <!-- end of card slider -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of slider-2 -->
+    <!-- end of testimonials -->
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">Copyright © <a href="#your-link">Marcos e Wesley</a></p>
+                </div> <!-- end of col -->
+            </div> <!-- enf of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of copyright --> 
+    <!-- end of copyright -->
+    
+    	
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="js/scripts.js"></script> <!-- Custom scripts -->
 </body>
-
 </html>
